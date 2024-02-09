@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+:root{
+  --blue : #000764;
+  --darkblack: #0b0b0b;
+  --lightblack: #313131;
+  --white : #f5f5f7
+}
+
+
+.detail{
+  margin: -5px 0 20px 0;
+  height: 4px;
+  width: 150px;
+  background-color: var(--darkblack);
+}
+
+
+
+footer{
+  margin-top: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--darkblack);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color:white;
+}

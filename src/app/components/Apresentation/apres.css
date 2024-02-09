@@ -1,0 +1,131 @@
+.apresentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.433);
+    height:30rem;
+    margin: 1rem 40px;
+}
+.left-apresent{
+    width: 35%;
+}
+
+.apresent-title{
+    font-size:35px;
+    
+}
+.apresent-title span{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 10px;
+    ;
+}
+#name-area{
+    margin: 20px 0 0 0;
+}
+
+hr{
+    width: 3px;
+    background-color: var(--darkblack);
+    border:0px;
+    align-self: center;
+    height: 50%;
+
+}
+.language h1{
+    color: var(--darkblack);
+    font-size: 40px;
+    
+}
+
+
+.language-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+}
+.cards-languages{
+    width: 120px;
+    height: 110px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.python{
+    grid-column-start: 2;
+}
+.icon{
+    height: auto;
+    color: var(--darkblack);
+    width: 50%;
+    transition: 0.3s ease;
+    
+}
+.html:hover .icon{
+    color:#E34F26;
+}
+.css:hover .icon{
+    color: #1572B6;
+}
+.js:hover .icon{
+    color: #F7DF1E;
+}
+.php:hover .icon{
+    color: #777BB4;
+}
+.react:hover .icon{
+    color: #61DAFB;
+}
+.mysql:hover .icon{
+    color: #4479A1;
+}
+.python:hover .icon{
+    color: #3776AB;
+}
+
+.cards-languages:hover .caption{
+    display: block;
+    animation: appear 0.4s ease-in-out;
+}
+
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+.caption{
+    display: none;
+    position: absolute;
+    
+    color:var(--darkblack);
+    bottom: 0;
+    padding: 5px;
+    font-weight: 700;
+    
+}
+
+
+
+.social-links{
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    gap: 10%;
+}
+.social-links a{
+    color: var(--darkblack);
+}

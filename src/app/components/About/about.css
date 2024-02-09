@@ -1,0 +1,32 @@
+article{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 40px;
+    gap:40px
+}
+.about-img{
+    height: 100%;
+    
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.about-text{
+    width: 50%;
+    font-size: 20px;
+    
+    
+}
+.image-circle{
+    height: 350px;
+    
+    width: 350px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
